@@ -1,14 +1,15 @@
 # SpiritKey
-==============================================================================================================
-1. "DiscordBot Spirit Key.py"
-    A Discord bot version of the Spirit Key checks
 
-==============================================================================================================
-2. SpiritKey Local version.py
+#### 1. "DiscordBot Spirit Key.py"
+    A Discord bot version of the Spirit Key checks \n
+
+
+
+#### 2. SpiritKey Local version.py
    A python local code for the spirit key checks to be run on python local version
 
-==============================================================================================================
-3. SpiritKey Analysis.py
+
+#### 3. SpiritKey Analysis.py
 	SK transactions data analysis
 	=> It will generate an excel file with 
 		1. Tab "SK acquisitions" => spirit keys per acquisition date, period , current owner, previous owner & type of acquisition (gift, sale)
