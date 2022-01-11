@@ -1,7 +1,7 @@
 # SpiritKey
 
 #### 1. "DiscordBot Spirit Key.py"
-    A Discord bot version of the Spirit Key checks \n
+    A Discord bot version of the Spirit Key checks
 
 
 
