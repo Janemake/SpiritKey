@@ -1,4 +1,4 @@
-# Libraries required for the Bot (if using replit it will done automatically)
+# Libraries required for the Bot (if using replit it will be done automatically)
 import os
 import requests
 import discord
