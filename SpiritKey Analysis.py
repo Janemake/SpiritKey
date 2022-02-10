@@ -43,9 +43,14 @@ def run_query(query, items):
         raise Exception("Query failed to run by returning code of {}. {}".format(request.status_code, query))
 
 # Generate the list of the owner, seller and gift
-def CheckKeys(my_extract):
+def CheckKeys(my_extract):    # List of collections with the same name.
+    numb_collections = len(my_extract["data"]['collectionEntities']['nodes'])
+    SpiritKeyList = []
+    for i in range(numb_collections):
+        SpiritKeyList += my_extract["data"]['collectionEntities']['nodes'][i]['nfts']['nodes'] # Drill down the dictionary
+        # print(SpiritKeyList)
+
     # List of current owner
-    SpiritKeyList = my_extract["data"]['collectionEntities']['nodes'][0]['nfts']['nodes'] # Drill down the dictionary
     owner = [[d_owner['currentOwner'],
               d_owner['name']
             ] 
